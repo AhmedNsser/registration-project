@@ -14,10 +14,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome</title>
+    <title>Hello</title>
 </head>
 <body>
-    <h1>Welcome <?php echo $row["username"]; ?></h1>
+    <h1>Hello <?php echo $row["username"]; ?></h1>
     <a href="logout.php">Logout</a>
 </body>
 </html>
